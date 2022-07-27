@@ -1,0 +1,17 @@
+{
+  "name": "playwrighttest",
+  "version": "1.0.0",
+  "description": "A test project for playing with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx playwright open google.com",
+    "webkit": "npm start -- -b webkit",
+    "firefox": "npm start -- -b firefox",
+    "chromium": "npm start -- -b chromium"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.1"
+  }
+}
